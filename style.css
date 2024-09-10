@@ -4,12 +4,14 @@ body {
     justify-content: center;
     flex-direction: column;
     font-family: "DM Serif Display", serif;
+    background: radial-gradient(circle, rgb(32, 104, 192) 20%, rgba(57,251,255,1) 100%);
 }
 
 button{
-    border: 2px solid black;
-    font-size: 1.5em;
-    background-color: white;
+    border: 2px solid white;
+    font-size: 1.3em;
+    background-color: transparent;
+    color: white;
     padding: 0.5em;
     cursor: pointer;
     font-family: "DM Serif Display", serif;
@@ -24,23 +26,24 @@ button{
 }
 
 #cont > div {
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
     text-align: center;
     cursor: pointer;
     border-radius: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 0.9em;
 }
 
 #cont > div.wall {
-    border: 12px solid black;
-/*     background-color: black; */
+    border: 12px solid white;
     cursor: default;
 }
 
 #cont > div.selected {
-    border: 1px solid white;
-    background-color: lightseagreen;
+    border: 2px solid white;
+    background-color: crimson;
     cursor: default;
 }
